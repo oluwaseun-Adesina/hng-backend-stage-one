@@ -4,10 +4,10 @@ port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     data ={
-        "slackUsername": "String",
-        "backend": "Boolean",
-        "age": "Integer",
-        "bio": "String"
+        "slackUsername": "litch",
+        "backend": true,
+        "age": 23,
+        "bio": "A backend developer (Node js)",
     }
     res.send(data);
 });
